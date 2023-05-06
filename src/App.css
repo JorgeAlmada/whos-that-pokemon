@@ -1,5 +1,17 @@
+@font-face {
+  font-family: 'Pokemon';
+  src: local('Pokemon'), url(./fonts/Pokemon.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PokeBorder';
+  src: local('PokeBorder'), url(./fonts/PokeBorder.ttf) format('truetype');
+}
+
 .App {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .App-logo {
@@ -36,3 +48,16 @@
     transform: rotate(360deg);
   }
 }
+
+.pokeFont{
+  font-family: 'Pokemon';
+  color: black;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 992px) { 
+  .App{
+    max-width: 60%;
+  }
+ }
